@@ -1,0 +1,23 @@
+type: edu
+custom_name: stage5
+files:
+- name: test/EncryptDecryptTest.java
+  visible: false
+  learner_created: false
+- name: src/encryptdecrypt/Main.java
+  visible: true
+  text: |
+    package encryptdecrypt;
+
+    public class Main {
+        public static void main(String[] args) {
+            System.out.println("dv ulfmw z givzhfiv!");
+        }
+    }
+  learner_created: false
+- name: output.txt
+  visible: true
+  learner_created: true
+feedback_link: https://hyperskill.org/projects/46/stages/249/implement
+status: Solved
+record: 5

@@ -1,0 +1,40 @@
+\documentclass{tufte-handout}
+\usepackage{microtype}
+\usepackage{booktabs}
+
+\begin{document}
+\section{Disjoint Sets I, Report}
+
+by Alice Cooper\sidenote{Complete the report by filling
+  in your real name, filling in the parts marked $[\ldots]$ and changing other parts wherever necessary.
+  (For instance, the numbers is the tables are nonsense right now.)
+  Remove the sidenotes in your final hand-in.}
+
+  \subsection{Results}
+  
+  I solved this exercise in Python 3 / Java.
+
+  Program \texttt{ds1} uses Java's \texttt{HashSet} and fails on tests $[\cdots]$ with error $[\cdots]$ / passes all the instances on CodeJudge.%
+  \sidenote{Replace by whichever library class you actually use, and whichever errors you generated.}
+
+  The following table gives a rough estimate on the running time for larger instances, based on experiments and extrapolating observed behaviour for smaller instances on my machine.\sidenote{
+    The numbers in the example table are completely made up and have to be replaced.
+  If you \emph{want} to be more precise, you may.
+  If you \emph{want} to give averages and standard deviations  for your experiments (because you've learned that) yo may.
+  If you \emph{want} to present the data graphically instead of a table, you may.
+  If you \emph{want} to present the data for different $n$ and $m$, you may.
+}
+
+\bigskip
+  \begin{tabular}{lll}
+  \toprule
+    Size          & Time for \texttt{ds1}   \\\midrule
+    $n, m = 10^5$ & 13.5 s \\
+    $n, m = 10^6$ & 3h 20m  \\
+    $n, m = 10^7$ & ca 1 week (extrapolated) \\
+    $n, m = 10^8$ & ca 1 day (extrapolated)  \\
+    $n, m = 10^9$ & ca 1 day (extrapolated) \\
+  \bottomrule
+  \end{tabular}
+\end{document}
+
